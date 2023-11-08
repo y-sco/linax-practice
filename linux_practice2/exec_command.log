@@ -1,0 +1,194 @@
+ 1  docker stop cectos7
+    2  docker stop centos7
+    3  exit
+    4  ls
+    5  ls /
+    6  ls /usr
+    7  cd /home
+    8  cd /root
+    9  pwd
+   10  cd /home
+   11  mkdir test1
+   12  ls
+   13  mkdir test2/test3
+   14  cd /home
+   15  mkdir -p test2/test3
+   16  ls test2
+   17  cd /home
+   18  touch test1/index.php
+   19  ls
+   20  ls test1
+   21  cd /home/test1 && ls
+   22  pwd
+   23  cp index.php copy.php
+   24  ls
+   25  cd /home
+   26  cp -r test1 test4
+   27  ls
+   28  ls test4
+   29  cp test1 test5
+   30  ls
+   31  cd /home
+   32  ls test2
+   33  mv text2/test3 test3
+   34  ls
+   35  mv test2/test3 test3
+   36  ls
+   37  mv test4 test1_copy
+   38  ls
+   39  ls test1
+   40  rm test1/copy.php
+   41  ls test1
+   42  rm -r test3
+   43  ls
+   44  rm test1_copy*.php
+   45  ls test1_copy
+   46  rm test_copy/*.php
+   47  $ rm test1_copy/*.php
+   48  rm test1_copy/*.php
+   49  ls test1_copy
+   50  ls
+   51  ls test1
+   52  cat README.md
+   53  echo '# Hello World' > README.md
+   54  cat README.md
+   55  echo '# Server Lesson' > README.md
+   56  cat README.md
+   57  echo 'Linux Practice' >> README.md
+   58  echo '-----------------' >> README.md
+   59  cat README.md
+   60  vi README.md
+   61  cd /root
+   62  mkdir server_lesson && cd server_lesson
+   63  yum update -y && yum -y install git
+   64  git version
+   65  git init
+   66  touch first.text
+   67  cd /root
+   68  ls
+   69  cd server_lesson
+   70  ls
+   71  server lesson linux_practice1
+   72  mkdir linux_practice1
+   73  cd linux_practice1
+   74  mkdir public && cd public
+   75  touch index.php
+   76  ls
+   77  exit
+   78  ls
+   79  cd /root
+   80  ls
+   81  cd /server_lesson/linux_practice1/public
+   82  cd /server_lesson/linux_practice1/public/
+   83  cd server_lesson/linux_practice1/public/
+   84  pwd
+   85  cd index.php index_bk.php
+   86  cp index.php index_bk.php
+   87  ls
+   88  cd ..
+   89  cp -r public tmp
+   90  ls
+   91  cd tmp
+   92  ls
+   93  cd ..
+   94  cd tmp
+   95  ls
+   96  rm index_bk.php
+   97  ls
+   98  cd ..
+   99  cd ..
+  100  README.md
+  101  touch README.md
+  102  ls
+  103  rm first.text
+  104  ls
+  105  ls
+  106  cd README.md
+  107  vi README.md
+  108  vi README.md
+  109  default encoding
+  110  default encoding
+  111  vi README.md
+  112  vi README.md
+  113  vi ~/.vimrc
+  114  vi README.md
+  115  git status
+  116  git add .
+  117  git status
+  118  git commit -m "practice1"
+  119  git status
+  120  git config --global user.email "yuuki091005@gmail.com"
+  121  git config --global user.name "y-sco"
+  122  git commit -m "practice1"
+  123  git remote add origin https://github.com/y-sco/linax-practice.git
+  124  git remote -v
+  125  git status
+  126  git log
+  127  git push origin master
+  128  git branch -M main
+  129  git push -u origin main
+  130  git status
+  131  git log
+  132  git remote add origin https://github.com/y-sco/linax-practice.git
+  133  git branch -M main
+  134  git push -u origin main
+  135  git push -u origin main
+  136  git push -u origin main
+  137  git push -u origin main
+  138  git push -u origin main
+  139  y-sco
+  140  git push -u origin main
+  141  vi README.md
+  142  git status
+  143  git add .
+  144  git status
+  145  git commit -m "correct:README.md"
+  146  git push origin master
+  147  git push origin master
+  148  git push origin master
+  149  git push origin main
+  150  ls
+  151  mkdir linux_practice2
+  152  cd
+  153  ls
+  154  cd server_lesson/linux_practice2
+  155  ls
+  156  touch documents && cd documents
+  157  touch documents
+  158  cd documents
+  159  ls
+  160  cd documents
+  161  rm documents
+  162  ls
+  163  mkdir documents && cd documents
+  164  touch gizumo{01..50}.md
+  165  ls
+  166  cd ..
+  167  mkdir trash
+  168  ls
+  169  mv gizumo{20..40}.md trash
+  170  ls
+  171  cd documents
+  172  ls
+  173  mv gizumo{20..40}.md trash
+  174  cd ..
+  175  ls
+  176  cd trash
+  177  cd ..
+  178  mv documents/gizumo{20..40}.md trash
+  179  ls
+  180  cd trash
+  181  ls
+  182  cd..
+  183  cd ..
+  184  touch .gitignore
+  185  ls
+  186  ls -a
+  187  vi .gitignore
+  188  git status
+  189  cd ..
+  190  ls
+  191  git status
+  192  vi .gitignore
+  193  git status
+  194  history 300
